@@ -7,6 +7,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+  let address =
   driver.push({name: 'Sam', address: '12 Broadway'}, driver);
 }
 
